@@ -1,0 +1,215 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+      <link rel = "icon" href ="logo2.png" type = "image" sizes="16x16" >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>YOURCHOICE for the best products</title>
+    <link href="style3.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="body">
+      <div class="header">
+        <div class="row">
+        <div class="col-12">
+       <div class="topnav">
+        <div class="navbar navbar-expand-sm sticky-top ">
+        <ul class="navbar-nav">
+       <li>   
+        <a href="#main"><div class="logobox"><img src="logo2.png" width="100px" ></div></a>  
+       </li>
+       <li>
+        <a href="#home">HOME</a>
+       </li>
+       <li>
+         <a href="#men">MEN</a>
+       </li>
+       <li> 
+        <a href="#women">WOMEN</a>
+        </li>
+        <a href="#gymwear">GYMWEAR</a>
+        <li>
+         <a href="#accessary">ACCESSARY</a>
+       </li>
+     </ul>
+   </div>
+</div>
+<div class="topnav2">
+   <a href="#main"><div class="logobox"><img src="logo2.png" width="100px" ></div></a>
+</div>
+</div>
+
+</div>  
+</div>
+
+
+<!-------------------------------------------------------photos change krlena ------------------------------------------------------------------->
+ 
+  <!----------------------------semi display end------------------------------------------------------------------------------------------>
+
+<div class="row">
+<div class="col-12">
+<div class="bannerspace">
+      <div class="banners ">
+          <img src="newbanner.jpg" width="100%">
+      </div>    
+      <div class="banners">
+          <img src="newbanner2.jpg"width="100%">
+      </div> 
+      <div class="banners">
+          <img src="newbanner3.jpg" width="100%" >
+      </div> 
+      <div class="direct">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+<script>
+              var banner = 0; var i = 0;
+
+bannershow();
+function plusSlides(n)
+{
+  banner= banner + n;
+  var mybanner = document.getElementsByClassName("banners");
+ for( j=0 ; j < mybanner.length ; j++)
+ {      
+        mybanner[j].style.display="none";
+ }
+ mybanner[banner - 1].style.display="block";
+ setTimeout(bannershow,6000);
+}
+function bannershow()
+{
+ var j;
+ var mybanner = document.getElementsByClassName("banners");
+ for( j=0 ; j < mybanner.length ; j++)
+ {      
+        mybanner[j].style.display="none";
+ }
+ banner = banner + 1 ;
+ if(banner > mybanner.length)
+ {      
+         banner = 1 ;
+ }
+ mybanner[banner - 1].style.display="block";
+ setTimeout(bannershow,5000);
+ 
+}
+</script>
+ </div>
+</div>
+</div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+  <div id="yourtitle">
+      BEST FOR YOU
+  </div>
+</div>
+</div>
+
+
+  <div class="row">
+  
+  <div class="col-sm-3">  
+  <div id="perticular">
+      <div class="display" >    
+          <img src="skrlx-half-sleeve-t-shirt-men-s-printed-t-shirts-210504-1550565636.webp" width="80%"  >
+        </div>    
+      <div class="details">
+        Black t-shirt with Red printed lines
+        </div>
+ </div>
+</div>
+
+
+<div class="col-sm-3">
+ <div id="perticular">
+    <div class="display">      
+          <img src="superman-line-half-sleeve-t-shirt-sml-men-s-printed-t-shirts-229573-1566283412.webp" width="80%"   >
+    </div>
+    <div class="details">
+        Black t-shirt with Red printed lines
+    </div>   
+ </div>
+</div>
+
+<div class="col-sm-3">
+  <div id="perticular">
+      <div class="display" >    
+          <img src="skrlx-half-sleeve-t-shirt-men-s-printed-t-shirts-210504-1550565636.webp" width="80%"   >
+        </div>    
+        <div class="details">
+        Black t-shirt with Red printed lines
+        </div>
+ </div>
+</div>
+
+
+<div class="col-sm-3">
+ <div id="perticular">
+    <div class="display">      
+          <img src="superman-line-half-sleeve-t-shirt-sml-men-s-printed-t-shirts-229573-1566283412.webp" width="80%"   >
+    </div>
+    <div class="details">
+        Black t-shirt with Red printed lines
+    </div>   
+ </div>
+</div>
+</div>
+
+<div class="row">
+  
+<div class="col-sm-3">
+  <div id="perticular">
+      <div class="display" >    
+          <img src="skrlx-half-sleeve-t-shirt-men-s-printed-t-shirts-210504-1550565636.webp" width="80%"    >
+        </div>    
+        <div class="details">
+        Black t-shirt with Red printed lines
+        </div>
+ </div>
+</div>
+
+
+
+<div class="col-sm-3">
+ <div id="perticular">
+    <div class="display">      
+          <img src="superman-line-half-sleeve-t-shirt-sml-men-s-printed-t-shirts-229573-1566283412.webp" width="80%"   >
+    </div>
+    <div class="details">
+        Black t-shirt with Red printed lines
+    </div>   
+ </div> 
+</div>
+
+<div class="col-sm-3">
+  <div id="perticular">
+      <div class="display" >    
+          <img src="skrlx-half-sleeve-t-shirt-men-s-printed-t-shirts-210504-1550565636.webp" width="80%"   >
+        </div>    
+        <div class="details">
+        Black t-shirt with Red printed lines
+        </div>
+ </div>
+</div>
+
+<div class="col-sm-3 ">
+ <div id="perticular">
+    <div class="display">      
+          <img src="superman-line-half-sleeve-t-shirt-sml-men-s-printed-t-shirts-229573-1566283412.webp" width="80%" >
+    </div>
+    <div class="details">
+        Black t-shirt with Red printed lines
+    </div>   
+ </div>
+</div>
+ </div>
+
+
+  </body>
+</html>
